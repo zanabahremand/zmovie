@@ -1,0 +1,52 @@
+{
+  "name": "Zmovie — پلتفرم فیلم و سریال",
+  "short_name": "Zmovie",
+  "description": "تماشای آنلاین فیلم و سریال با تجربه‌ای مدرن و حرفه‌ای. پشتیبانی از زیرنویس فارسی و کردی.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#E50914",
+  "lang": "fa",
+  "dir": "rtl",
+  "categories": ["entertainment", "video", "movies", "tv"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "خانه",
+      "url": "/?tab=home",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "فیلم‌ها",
+      "url": "/?tab=movies",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "سریال‌ها",
+      "url": "/?tab=series",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
