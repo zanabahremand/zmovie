@@ -1,0 +1,97 @@
+1:"$Sreact.fragment"
+a:I[68027,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"default"]
+:HL["/zmovie/_next/static/chunks/1501fd2ef603bc6c.css","style"]
+:HL["/zmovie/_next/static/chunks/855111afd7bdff9d.css","style"]
+2:T814,
+  #zmovie-loading {
+    position: fixed;
+    inset: 0;
+    background: #0a0a0a;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
+  }
+  #zmovie-loading.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .zmovie-loading-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #E50914 0%, #B20710 100%);
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 56px;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.04em;
+    box-shadow:
+      0 8px 32px -8px rgba(229, 9, 20, 0.7),
+      0 0 0 1px rgba(229, 9, 20, 0.3) inset;
+    animation: zmovie-pulse 1.6s ease-in-out infinite;
+  }
+  .zmovie-loading-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+  }
+  .zmovie-loading-text .red {
+    color: #E50914;
+  }
+  .zmovie-loading-bar {
+    width: 120px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgba(229, 9, 20, 0.2);
+    overflow: hidden;
+    position: relative;
+  }
+  .zmovie-loading-bar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, #E50914, transparent);
+    width: 40%;
+    animation: zmovie-slide 1.2s ease-in-out infinite;
+  }
+  @keyframes zmovie-pulse {
+    0%, 100% { transform: scale(1); box-shadow: 0 8px 32px -8px rgba(229, 9, 20, 0.7), 0 0 0 1px rgba(229, 9, 20, 0.3) inset; }
+    50% { transform: scale(1.06); box-shadow: 0 12px 40px -8px rgba(229, 9, 20, 0.9), 0 0 0 1px rgba(229, 9, 20, 0.5) inset; }
+  }
+  @keyframes zmovie-slide {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(300%); }
+  }
+  @media (prefers-color-scheme: dark) {
+    #zmovie-loading { background: #0a0a0a; }
+  }
+0:{"P":null,"b":"mMkSGp4B5manS98T5uuTg","c":["","_not-found",""],"q":"","i":false,"f":[[["",{"children":["/_not-found",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/zmovie/_next/static/chunks/1501fd2ef603bc6c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/zmovie/_next/static/chunks/855111afd7bdff9d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/zmovie/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/zmovie/_next/static/chunks/ab7d45f236ed979f.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/zmovie/_next/static/chunks/71bf41dff4bb43ab.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"fa","dir":"rtl","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],["$","meta",null,{"name":"application-name","content":"Zmovie"}],["$","meta",null,{"name":"mobile-web-app-capable","content":"yes"}],["$","meta",null,{"name":"apple-mobile-web-app-capable","content":"yes"}],["$","meta",null,{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"Zmovie"}],["$","meta",null,{"name":"format-detection","content":"telephone=no"}],["$","meta",null,{"name":"apple-touch-fullscreen","content":"yes"}],["$","meta",null,{"name":"apple","content":"app-id=zmovie"}],"$L3","$L4","$L5"]}],"$L6"]}]]}],{"children":["$L7",{"children":["$L8",{},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a","$undefined"],"S":true}
+b:I[1661,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"Providers"]
+c:I[39756,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"default"]
+d:I[37457,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"default"]
+e:I[77855,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"Toaster"]
+f:I[13354,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"Toaster"]
+10:I[97367,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+13:I[97367,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"ViewportBoundary"]
+15:I[97367,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"MetadataBoundary"]
+3:["$","link",null,{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png"}]
+4:["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/icons/apple-touch-icon.png"}]
+5:["$","link",null,{"rel":"apple-touch-startup-image","href":"/icons/apple-touch-icon.png"}]
+6:["$","body",null,{"className":"vazirmatn_c6276b73-module__yV827a__variable geist_22e2a02c-module__MwEO2a__variable font-sans antialiased bg-background text-foreground","children":[["$","div",null,{"id":"zmovie-loading","aria-hidden":"true","children":[["$","div",null,{"className":"zmovie-loading-logo","children":"Z"}],["$","div",null,{"className":"zmovie-loading-text","children":[["$","span",null,{"className":"red","children":"Z"}],"movie"]}],["$","div",null,{"className":"zmovie-loading-bar"}]]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n  // Hide loading screen on page show (initial load) and after small delay\n  // for hydration. We don't wait for window.load — that's too late for UX.\n  window.addEventListener('DOMContentLoaded', function() {\n    setTimeout(function() {\n      var el = document.getElementById('zmovie-loading');\n      if (el) {\n        el.classList.add('is-hidden');\n        // Remove from DOM after animation completes\n        setTimeout(function() {\n          if (el && el.parentNode) el.parentNode.removeChild(el);\n        }, 500);\n      }\n    }, 600);\n  });\n  // Fallback: hide after 3s no matter what\n  setTimeout(function() {\n    var el = document.getElementById('zmovie-loading');\n    if (el) {\n      el.classList.add('is-hidden');\n      setTimeout(function() {\n        if (el && el.parentNode) el.parentNode.removeChild(el);\n      }, 500);\n    }\n  }, 3000);\n"}}],["$","$Lb",null,{"children":[["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$Le",null,{}],["$","$Lf",null,{"position":"top-center"}]]}]]}]
+7:["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+8:["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$6:props:children:2:props:children:0:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$6:props:children:2:props:children:0:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$6:props:children:2:props:children:0:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$6:props:children:2:props:children:0:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}]
+9:["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L13",null,{"children":"$L14"}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":"$L16"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no"}],["$","meta","2",{"name":"theme-color","content":"#E50914"}]]
+17:I[27201,["/zmovie/_next/static/chunks/ff1a16fafef87110.js","/zmovie/_next/static/chunks/d2be314c3ece3fbe.js","/zmovie/_next/static/chunks/ab7d45f236ed979f.js","/zmovie/_next/static/chunks/71bf41dff4bb43ab.js"],"IconMark"]
+12:null
+16:[["$","title","0",{"children":"Zmovie — پلتفرم فیلم و سریال"}],["$","meta","1",{"name":"description","content":"Zmovie: تماشای آنلاین فیلم و سریال با تجربه‌ای مدرن و حرفه‌ای. پشتیبانی از زیرنویس فارسی و کردی."}],["$","meta","2",{"name":"author","content":"Zmovie"}],["$","link","3",{"rel":"manifest","href":"/manifest.json","crossOrigin":"$undefined"}],["$","meta","4",{"name":"keywords","content":"Zmovie,زدمووی,فیلم,سریال,دانلود فیلم,تماشای آنلاین,سینما"}],["$","meta","5",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","6",{"name":"apple-mobile-web-app-title","content":"Zmovie"}],["$","link","7",{"href":"/icons/apple-touch-icon.png","media":"$undefined","rel":"apple-touch-startup-image"}],["$","meta","8",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","meta","9",{"property":"og:title","content":"Zmovie"}],["$","meta","10",{"property":"og:description","content":"پلتفرم آنلاین فیلم و سریال"}],["$","meta","11",{"property":"og:site_name","content":"Zmovie"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"Zmovie"}],["$","meta","15",{"name":"twitter:description","content":"پلتفرم آنلاین فیلم و سریال"}],["$","link","16",{"rel":"shortcut icon","href":"/favicon-32.png"}],["$","link","17",{"rel":"icon","href":"/favicon-32.png","sizes":"32x32","type":"image/png"}],["$","link","18",{"rel":"icon","href":"/icons/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","19",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L17","20",{}]]
